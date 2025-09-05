@@ -7,6 +7,7 @@
 #define BLOCK_SIZE 2      // Tamanho de cada bloco em KB
 #define TOTAL_BLOCKS (MEMORY_SIZE / BLOCK_SIZE)
 
+
 typedef struct {
     int pid;
     size_t size;
