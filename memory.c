@@ -81,15 +81,6 @@ static int best_fit(int pid, size_t need) {
 }
 
 static int worst_fit(int pid, size_t need) {
-     printf("*** WORST FIT DEBUG ***\n");
-     printf("Procurando %zu blocos para PID %d\n", need, pid);
-
-     // Primeiro, vamos verificar se a memória está realmente inicializada
-     int total_free = 0;
-     for (int i = 0; i < TOTAL_BLOCKS; i++) {
-         if (memory[i].pid == -1) total_free++;
-     }
-     printf("Total de blocos livres: %d de %d\n", total_free, TOTAL_BLOCKS);
 
      int worst_start = -1;
      size_t worst_size = 0;
