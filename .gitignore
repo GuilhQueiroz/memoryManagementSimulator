@@ -1,0 +1,17 @@
+# Arquivos compilados do C
+*.exe
+*.o
+*.out
+simulador
+
+# Pastas de IDE
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
