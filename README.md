@@ -23,7 +23,7 @@ projeto/
 │── memory.h        # Definições e protótipos
 ```
 ## 🖥️ Compilação e Execução
-- Compilando com GCC
+- Compilando com GCC <br>
 No terminal, dentro da pasta do projeto:
   ```bash
   gcc main.c memory.c -o simulador
